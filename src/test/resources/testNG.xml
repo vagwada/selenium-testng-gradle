@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" parallel="classes" thread-count="5" verbose="1" >
+
+  <test name="Regression1">
+    <classes>
+      <class name="tests.HerokuChallengingDomTests"/>
+      <class name="tests.HerokuFormAuthenticationTests"/>
+      <class name="tests.HerokuMainPageTests"/>
+      <class name="tests.LargeDeepDomTests"/>
+    </classes>
+  </test>
+</suite>

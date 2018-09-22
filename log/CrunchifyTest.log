@@ -1,0 +1,250 @@
+2018-08-10 22:05:50,092 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-10 22:05:50,305 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:05:57,015 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:05:57,847 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:06:03,716 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:06:04,922 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:06:10,106 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:06:11,271 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:06:16,368 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:06:17,555 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:06:24,621 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:06:25,588 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:06:30,722 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:06:31,843 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:06:39,853 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:06:40,650 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:06:45,742 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:06:46,818 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:06:52,061 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:06:52,899 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:06:58,105 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:06:59,196 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:07:04,914 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:07:05,771 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:07:10,958 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:07:12,086 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:07:17,531 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:07:18,525 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:07:24,355 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:07:25,224 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:07:30,692 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:07:31,515 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:07:36,643 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:07:37,773 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:07:43,891 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:10:06,168 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-10 22:10:06,354 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:10:14,817 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:10:15,806 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:10:21,642 [main] INFO  BaseTest:46 - TearDown
+2018-08-10 22:10:22,500 [main] INFO  BaseTest:37 - SetUp
+2018-08-10 22:10:28,851 [main] INFO  BaseTest:46 - TearDown
+2018-08-12 18:59:29,010 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-12 18:59:29,114 [main] INFO  BaseTest:37 - SetUp
+2018-08-12 18:59:38,423 [main] INFO  BaseTest:46 - TearDown
+2018-08-12 18:59:39,146 [main] INFO  BaseTest:37 - SetUp
+2018-08-12 18:59:46,112 [main] INFO  BaseTest:46 - TearDown
+2018-08-12 18:59:47,064 [main] INFO  BaseTest:37 - SetUp
+2018-08-12 18:59:52,797 [main] INFO  BaseTest:46 - TearDown
+2018-08-13 11:57:40,536 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 11:57:40,570 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 11:57:40,580 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 11:57:40,591 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 11:57:40,803 [TestNG-test=Regression1-1] INFO  BaseTest:37 - SetUp
+2018-08-13 11:57:40,826 [TestNG-test=Regression1-2] INFO  BaseTest:37 - SetUp
+2018-08-13 11:57:40,850 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:57:40,850 [TestNG-test=Regression1-4] INFO  BaseTest:37 - SetUp
+2018-08-13 11:57:49,094 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:57:50,575 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:57:50,643 [TestNG-test=Regression1-2] INFO  BaseTest:46 - TearDown
+2018-08-13 11:57:51,474 [TestNG-test=Regression1-2] INFO  BaseTest:37 - SetUp
+2018-08-13 11:57:56,253 [TestNG-test=Regression1-1] INFO  BaseTest:46 - TearDown
+2018-08-13 11:57:56,809 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:57:58,053 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:57:58,803 [TestNG-test=Regression1-2] INFO  BaseTest:46 - TearDown
+2018-08-13 11:58:00,370 [TestNG-test=Regression1-2] INFO  BaseTest:37 - SetUp
+2018-08-13 11:58:03,695 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:58:04,795 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:58:07,123 [TestNG-test=Regression1-2] INFO  BaseTest:46 - TearDown
+2018-08-13 11:58:10,138 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:58:10,948 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:58:16,793 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:58:17,609 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:58:22,756 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:58:23,762 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:58:28,997 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:58:29,936 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:58:34,887 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:58:35,760 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:58:41,104 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:58:41,905 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:58:47,697 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:58:48,455 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:58:53,760 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:58:54,731 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:58:59,941 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:59:00,742 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:59:08,808 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:59:09,767 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:59:14,621 [TestNG-test=Regression1-4] INFO  BaseTest:46 - TearDown
+2018-08-13 11:59:14,925 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:59:15,857 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:59:23,102 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:59:23,882 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:59:28,828 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 11:59:29,575 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 11:59:34,589 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:00:21,814 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 12:00:21,833 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 12:00:21,842 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 12:00:21,945 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 12:00:22,052 [TestNG-test=Regression1-1] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:22,080 [TestNG-test=Regression1-2] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:22,170 [TestNG-test=Regression1-5] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:22,179 [TestNG-test=Regression1-4] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:22,189 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:30,128 [TestNG-test=Regression1-5] INFO  BaseTest:46 - TearDown
+2018-08-13 12:00:30,286 [TestNG-test=Regression1-2] INFO  BaseTest:46 - TearDown
+2018-08-13 12:00:30,333 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:00:30,948 [TestNG-test=Regression1-4] INFO  BaseTest:46 - TearDown
+2018-08-13 12:00:31,447 [TestNG-test=Regression1-5] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:31,453 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:31,453 [TestNG-test=Regression1-2] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:33,194 [TestNG-test=Regression1-4] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:38,046 [TestNG-test=Regression1-1] INFO  BaseTest:46 - TearDown
+2018-08-13 12:00:39,087 [TestNG-test=Regression1-1] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:40,435 [TestNG-test=Regression1-2] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:41,974 [TestNG-test=Regression1-5] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:42,378 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:42,601 [TestNG-test=Regression1-4] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:44,942 [TestNG-test=Regression1-1] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:47,453 [TestNG-test=Regression1-2] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:49,528 [TestNG-test=Regression1-5] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:49,942 [TestNG-test=Regression1-4] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:50,042 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:50,538 [TestNG-test=Regression1-1] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:57,517 [TestNG-test=Regression1-2] INFO  BaseTest:37 - SetUp
+2018-08-13 12:00:57,573 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:09,973 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 12:11:09,994 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 12:11:10,012 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 12:11:10,051 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-13 12:11:10,125 [TestNG-test=Regression1-2] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:10,125 [TestNG-test=Regression1-1] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:10,125 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:10,126 [TestNG-test=Regression1-4] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:18,038 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:11:19,250 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:19,468 [TestNG-test=Regression1-2] INFO  BaseTest:46 - TearDown
+2018-08-13 12:11:20,193 [TestNG-test=Regression1-2] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:24,351 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:11:25,555 [TestNG-test=Regression1-1] INFO  BaseTest:46 - TearDown
+2018-08-13 12:11:25,557 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:26,010 [TestNG-test=Regression1-2] INFO  BaseTest:46 - TearDown
+2018-08-13 12:11:27,296 [TestNG-test=Regression1-2] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:32,932 [TestNG-test=Regression1-2] INFO  BaseTest:46 - TearDown
+2018-08-13 12:11:34,841 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:11:35,587 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:40,921 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:11:41,734 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:47,219 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:11:47,976 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:52,804 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:11:53,567 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:11:58,678 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:11:59,414 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:12:04,314 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:12:05,075 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:12:09,858 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:12:10,592 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:12:19,542 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:12:20,387 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:12:26,149 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:12:26,910 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:12:31,328 [TestNG-test=Regression1-4] INFO  BaseTest:46 - TearDown
+2018-08-13 12:12:31,674 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:12:32,411 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:12:38,343 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:12:39,097 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:12:43,864 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:12:44,625 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:12:49,583 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:12:50,311 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:12:55,196 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-13 12:12:55,965 [TestNG-test=Regression1-3] INFO  BaseTest:37 - SetUp
+2018-08-13 12:13:00,855 [TestNG-test=Regression1-3] INFO  BaseTest:46 - TearDown
+2018-08-23 23:09:18,882 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-23 23:09:18,966 [main] INFO  BaseTest:37 - SetUp
+2018-08-23 23:09:34,141 [main] INFO  BaseTest:46 - TearDown
+2018-08-23 23:10:26,318 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-23 23:10:26,371 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 18:48:34,637 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-24 18:48:34,728 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 18:48:42,069 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 18:49:37,438 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-24 18:49:37,534 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 18:50:32,398 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 18:51:12,721 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-24 18:51:12,860 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 18:55:56,384 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 18:57:03,525 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-24 18:57:03,663 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 18:57:11,243 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 18:58:32,447 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-24 18:58:32,722 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 18:59:20,505 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:00:45,137 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-24 19:00:45,248 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:01:35,875 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-24 19:01:35,938 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:03:20,526 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-24 19:03:20,673 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:04:11,921 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:07:53,556 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-24 19:07:53,639 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:08:05,696 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:22:34,475 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-24 19:22:34,656 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:22:47,609 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:23:02,507 [main] INFO  BaseTest:32 - BaseTest completed
+2018-08-24 19:23:02,646 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:23:10,515 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:23:11,994 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:23:18,405 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:23:19,951 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:23:26,132 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:23:27,673 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:23:33,628 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:23:35,057 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:23:41,169 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:23:42,647 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:23:48,871 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:23:50,498 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:23:56,852 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:23:58,221 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:24:04,331 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:24:05,964 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:24:11,984 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:24:13,495 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:24:19,519 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:24:21,159 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:24:29,493 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:24:31,162 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:24:38,189 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:24:39,897 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:24:48,584 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:24:49,954 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:24:57,920 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:24:59,473 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:25:05,677 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:25:07,045 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:25:12,952 [main] INFO  BaseTest:46 - TearDown
+2018-08-24 19:25:14,405 [main] INFO  BaseTest:37 - SetUp
+2018-08-24 19:25:21,081 [main] INFO  BaseTest:46 - TearDown
+2018-09-21 19:31:06,750 [main] INFO  BaseTest:32 - BaseTest completed
+2018-09-21 19:31:06,796 [main] INFO  BaseTest:37 - SetUp
+2018-09-21 19:31:20,645 [main] INFO  BaseTest:46 - TearDown
+2018-09-21 19:32:42,501 [main] INFO  BaseTest:32 - BaseTest completed
+2018-09-21 19:32:42,610 [main] INFO  BaseTest:37 - SetUp
+2018-09-21 19:34:01,999 [main] INFO  BaseTest:46 - TearDown
