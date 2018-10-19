@@ -16,139 +16,139 @@ public class HerokuAppMainPage {
     private int timeout = 15;
 
     @FindBy(css = "a[href='/abtest']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement abTesting;
 
     @FindBy(css = "a[href='/basic_auth']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement basicAuth;
 
     @FindBy(css = "a[href='/broken_images']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement brokenImages;
 
     @FindBy(css = "a[href='/challenging_dom']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement challengingDom;
 
     @FindBy(css = "a[href='/checkboxes']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement checkboxes;
 
     @FindBy(css = "a[href='/context_menu']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement contextMenu;
 
     @FindBy(css = "a[href='/disappearing_elements']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement disappearingElements;
 
     @FindBy(css = "a[href='/drag_and_drop']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement dragAndDrop;
 
     @FindBy(css = "a[href='/dropdown']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement dropdown;
 
     @FindBy(css = "a[href='/dynamic_content']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement dynamicContent;
 
     @FindBy(css = "a[href='/dynamic_controls']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement dynamicControls;
 
     @FindBy(css = "a[href='/dynamic_loading']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement dynamicLoading;
 
     @FindBy(css = "a[href='http://elementalselenium.com/']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement elementalSelenium;
 
     @FindBy(css = "a[href='/exit_intent']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement exitIntent;
 
     @FindBy(css = "a[href='/download']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement fileDownload;
 
     @FindBy(css = "a[href='/upload']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement fileUpload;
 
     @FindBy(css = "a[href='/floating_menu']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement floatingMenu;
 
     @FindBy(css = "a[href='/forgot_password']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement forgotPassword;
 
     @FindBy(css = "a[href='https://github.com/tourdedave/the-internet']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement forkMeOnGithub;
 
     @FindBy(css = "a[href='/login']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement formAuthentication;
 
     @FindBy(css = "a[href='/frames']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement frames;
 
     @FindBy(css = "a[href='/geolocation']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement geolocation;
 
     @FindBy(css = "a[href='/horizontal_slider']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement horizontalSlider;
 
     @FindBy(css = "a[href='/hovers']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement hovers;
 
     @FindBy(css = "a[href='/infinite_scroll']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement infiniteScroll;
 
     @FindBy(css = "a[href='/javascript_alerts']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement javascriptAlerts;
 
     @FindBy(css = "a[href='/javascript_error']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement javascriptOnloadEventError;
 
     @FindBy(css = "a[href='/jqueryui/menu']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement jqueryUiMenus;
 
     @FindBy(css = "a[href='/key_presses']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement keyPresses;
 
     @FindBy(css = "a[href='/large']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement largeDeepDom;
 
     @FindBy(css = "a[href='/windows']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement multipleWindows;
 
     @FindBy(css = "a[href='/nested_frames']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement nestedFrames;
 
     @FindBy(css = "button.g-new-template")
-    @CacheLookup
+    //@CacheLookup
     private WebElement newTemplate;
 
     @FindBy(css = "a[href='/notification_message']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement notificationMessages;
 
     private final String pageLoadedText = "";
@@ -156,35 +156,35 @@ public class HerokuAppMainPage {
     private final String pageUrl = "/";
 
     @FindBy(css = "a[href='/redirector']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement redirectLink;
 
     @FindBy(css = "a[href='/download_secure']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement secureFileDownload;
 
     @FindBy(css = "a[href='/shifting_content']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement shiftingContent;
 
     @FindBy(css = "a[href='/slow']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement slowResources;
 
     @FindBy(css = "a[href='/tables']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement sortableDataTables;
 
     @FindBy(css = "a[href='/status_codes']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement statusCodes;
 
     @FindBy(css = "a[href='/typos']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement typos;
 
     @FindBy(css = "a[href='/tinymce']")
-    @CacheLookup
+    //@CacheLookup
     private WebElement wysiwygEditor;
 
     public HerokuAppMainPage() {

@@ -9,8 +9,7 @@ import java.util.List;
 
 public class HerokuChallengingDomTests extends BaseTest{
 
-    @Test
-    //@Category(Regression.class)
+    @Test(groups = {"Regression"} )
     public void testTableHandling()  {
 
         homePage.clickChallengingDomLink();

@@ -22,7 +22,7 @@ public class LargeDeepDomTests extends BaseTest {
         Assert.assertTrue(allDivs.size() > 2);
     }
 
-    @Test
+    @Test  
     public void ParseTable(){
         homePage.clickLargeDeepDomLink();
         LargeDeepDom page = new LargeDeepDom(driver);

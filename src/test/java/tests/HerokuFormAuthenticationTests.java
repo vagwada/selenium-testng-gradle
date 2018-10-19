@@ -10,8 +10,7 @@ import java.util.List;
 
 public class HerokuFormAuthenticationTests extends BaseTest {
 
-    @Test
-    //@Category({Smoke.class, Regression.class})
+    @Test(groups = {"Smoke", "Regression"})
     public void testLogin() {
         homePage.clickFormAuthenticationLink();
         FormAuthentication loginPage = new FormAuthentication(driver);
@@ -37,8 +36,7 @@ public class HerokuFormAuthenticationTests extends BaseTest {
         Assert.assertTrue(currentUrl.contains("login"));
     }
 
-    @Test
-    //@Category({Smoke.class, Regression.class})
+    @Test(groups = {"Smoke", "Regression"})
     public void testLoginBadUsername() {
         homePage.clickFormAuthenticationLink();
         FormAuthentication loginPage = new FormAuthentication(driver);
@@ -52,8 +50,7 @@ public class HerokuFormAuthenticationTests extends BaseTest {
 
     }
 
-    @Test
-   // @Category({Smoke.class, Regression.class})
+    @Test(groups = {"Smoke", "Regression"})
     public void testLoginBadPassword() {
         homePage.clickFormAuthenticationLink();
         FormAuthentication loginPage = new FormAuthentication(driver);

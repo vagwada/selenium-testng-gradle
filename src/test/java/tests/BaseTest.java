@@ -44,6 +44,7 @@ public class BaseTest {
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
         LOGGER.info("TearDown");
+        driver.close();
         driver.quit();
     }
 
