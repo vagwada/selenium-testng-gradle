@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="herokumainpage" parallel="methods" thread-count="5">
+<suite name="herokumainpage" parallel="classes" thread-count="5">
     <test name="HerokuTest">
         <classes>
+            <class name="tests.DragAndDropTests" />
+            <class name="tests.HerokuChallengingDomTests" />
+            <class name="tests.HerokuFormAuthenticationTests" />
             <class name="tests.HerokuMainPageTests" />
+            <class name="tests.LargeDeepDomTests" />
         </classes>
     </test>
 </suite>

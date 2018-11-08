@@ -5,8 +5,10 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.*;
@@ -54,7 +56,9 @@ public class BaseTest {
         switch (browser) {
             case "chrome":
                 System.setProperty("webdriver.chrome.driver", propertyReader.readProperty("winChromeDriver"));
-                driver = new ChromeDriver();
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--headless");
+                driver = new ChromeDriver(chromeOptions);
                 break;
             case "ie":
                 driver = new InternetExplorerDriver();
