@@ -614,3 +614,5 @@
 2018-10-18 23:42:33,513 [TestNG-test=HerokuTest-4] INFO  BaseTest:37 - SetUp
 2018-10-18 23:42:35,127 [TestNG-test=HerokuTest-3] INFO  BaseTest:37 - SetUp
 2018-10-18 23:42:40,565 [TestNG-test=HerokuTest-4] INFO  BaseTest:37 - SetUp
+2018-10-22 10:08:46,762 [main] INFO  BaseTest:32 - BaseTest completed
+2018-10-22 10:08:46,818 [main] INFO  BaseTest:37 - SetUp
