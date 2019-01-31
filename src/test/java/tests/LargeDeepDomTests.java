@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LargeDeepDom;
 import java.util.List;
-import org.apache.commons.lang3.time.StopWatch;
+import org.apache.commons.lang.time.StopWatch;
 
 public class LargeDeepDomTests extends BaseTest {
 

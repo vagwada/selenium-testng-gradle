@@ -5,17 +5,24 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pages.HerokuAppMainPage;
 import util.JunitListener;
 import util.PropertyReader;
+import com.machinepublishers.jbrowserdriver.Timezone;
+import com.machinepublishers.jbrowserdriver.JBrowserDriver;
+import com.machinepublishers.jbrowserdriver.Settings;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -77,12 +84,37 @@ public class BaseTest {
                 System.setProperty("webdriver.chrome.driver", propertyReader.readProperty("macChromeDriver"));
                 driver = new ChromeDriver();
                 break;
+            case "chromeHeadless":
+                System.setProperty("webdriver.chrome.driver", propertyReader.readProperty("winChromeDriver"));
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--headless");
+//                options.addArguments("--disable-gpu");
+//                options.addArguments("--remote-debugging-port=9222");
+                driver = new ChromeDriver(options);
+                break;
             case "ie":
                 driver = new InternetExplorerDriver();
                 break;
             case "firefox":
                 System.setProperty("webdriver.firefox.driver", propertyReader.readProperty("winFirefoxDriver"));
                 driver = new FirefoxDriver();
+                break;
+            case "firefoxHeadless":
+                System.setProperty("webdriver.firefox.driver", propertyReader.readProperty("winFirefoxDriver"));
+                //Set Firefox Headless mode as TRUE
+                FirefoxOptions ffoptions = new FirefoxOptions();
+                ffoptions.setHeadless(true);
+                driver = new FirefoxDriver(ffoptions);
+                break;
+            case "jbrowserdriver":
+                Capabilities capabilities = Settings.builder()
+//                        .headless(false)
+//                        .saveAttachments(true)
+//                        .screen(new Dimension(1200, 700))
+//                        .ssl("trustanything")
+//                        .timezone(Timezone.ASIA_TOKYO)
+                        .buildCapabilities();
+                driver = new JBrowserDriver(capabilities);
                 break;
             default:
                 throw new WebDriverException();
