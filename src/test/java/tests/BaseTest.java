@@ -6,12 +6,15 @@ import org.testng.annotations.BeforeMethod;
 import pages.HerokuAppMainPage;
 import util.DriverFactory;
 import util.JunitListener;
+import util.NavigationTimeHelper;
 import util.PropertyReader;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
@@ -24,6 +27,7 @@ public class BaseTest {
     public JunitListener junitListener;
     public WebDriver driver;
     public HerokuAppMainPage homePage;
+    private NavigationTimeHelper navigationTimeHelper;
 
     public BaseTest() {
         LOGGER = Logger.getLogger(BaseTest.class.getName());
@@ -43,6 +47,15 @@ public class BaseTest {
         junitListener.setDriver(driver);
         homePage = new HerokuAppMainPage(driver);
         loadUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+//        Long loadTime = navigationTimeHelper.getdomLoading();
+
+        Long responseTime = navigationTimeHelper.getresponseEnd() - navigationTimeHelper.getresponseStart();
+        Long loadTime = navigationTimeHelper.getloadEventEnd() - navigationTimeHelper.getloadEventStart();
+        Long domContentLoadTime = navigationTimeHelper.getdomContentLoadedEventEnd() - navigationTimeHelper.getdomContentLoadedEventStart();
+        Long domLoad = navigationTimeHelper.getdomComplete() - navigationTimeHelper.getdomLoading();
+        Long sumpin = navigationTimeHelper.getredirectStart();
     }
 
     @AfterMethod(alwaysRun = true)
