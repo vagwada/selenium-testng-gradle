@@ -27,7 +27,7 @@ public class BaseTest {
     public JunitListener junitListener;
     public WebDriver driver;
     public HerokuAppMainPage homePage;
-    private NavigationTimeHelper navigationTimeHelper;
+    NavigationTimeHelper navigationTimeHelper;
 
     public BaseTest() {
         LOGGER = Logger.getLogger(BaseTest.class.getName());
@@ -47,15 +47,15 @@ public class BaseTest {
         junitListener.setDriver(driver);
         homePage = new HerokuAppMainPage(driver);
         loadUrl();
-        navigationTimeHelper = new NavigationTimeHelper(driver);
-        Map<String, Object> timings = navigationTimeHelper.getTimings();
-//        Long loadTime = navigationTimeHelper.getdomLoading();
-
-        Long responseTime = navigationTimeHelper.getresponseEnd() - navigationTimeHelper.getresponseStart();
-        Long loadTime = navigationTimeHelper.getloadEventEnd() - navigationTimeHelper.getloadEventStart();
-        Long domContentLoadTime = navigationTimeHelper.getdomContentLoadedEventEnd() - navigationTimeHelper.getdomContentLoadedEventStart();
-        Long domLoad = navigationTimeHelper.getdomComplete() - navigationTimeHelper.getdomLoading();
-        Long sumpin = navigationTimeHelper.getredirectStart();
+//        navigationTimeHelper = new NavigationTimeHelper(driver);
+//        Map<String, Object> timings = navigationTimeHelper.getTimings();
+////        Long loadTime = navigationTimeHelper.getdomLoading();
+//
+//        Long responseTime = navigationTimeHelper.getresponseEnd() - navigationTimeHelper.getresponseStart();
+//        Long loadTime = navigationTimeHelper.getloadEventEnd() - navigationTimeHelper.getloadEventStart();
+//        Long domContentLoadTime = navigationTimeHelper.getdomContentLoadedEventEnd() - navigationTimeHelper.getdomContentLoadedEventStart();
+//        Long domLoad = navigationTimeHelper.getdomComplete() - navigationTimeHelper.getdomLoading();
+//        Long sumpin = navigationTimeHelper.getredirectStart();
     }
 
     @AfterMethod(alwaysRun = true)

@@ -2,13 +2,21 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import util.NavigationTimeHelper;
+import java.util.Map;
+import java.util.logging.Logger;
 
 public class HerokuMainPageTests extends BaseTest {
+
+    private static Logger LOGGER = Logger.getLogger("HerokuMainPageTests.class");
 
     @Test(groups = {"Smoke"})
     public void testAbTestingLink() {
         homePage.clickAbTestingLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("abtest"));
     }
 
@@ -16,6 +24,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testBrokenImagesLink() {
         homePage.clickBrokenImagesLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("broken_images"));
     }
 
@@ -30,6 +41,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testCheckboxesLink() {
         homePage.clickCheckboxesLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("checkboxes"));
     }
 
@@ -37,6 +51,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testContextMenuLink() {
         homePage.clickContextMenuLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("context_menu"));
     }
 
@@ -51,6 +68,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testDragAndDropLink() {
         homePage.clickDragAndDropLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("drag_and_drop"));
     }
 
@@ -58,6 +78,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testDropdownLink() {
         homePage.clickDropdownLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("dropdown"));
     }
 
@@ -65,6 +88,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testDynamicContentLink() {
         homePage.clickDynamicContentLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("dynamic_content"));
     }
 
@@ -72,6 +98,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testDynamicControlsLink() {
         homePage.clickDynamicControlsLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("dynamic_controls"));
     }
 
@@ -79,6 +108,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testDynamicLoadingLink() {
         homePage.clickDynamicLoadingLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("dynamic_loading"));
     }
 
@@ -86,6 +118,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testclickExitIntentLink() {
         homePage.clickExitIntentLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("exit_intent"));
     }
 
@@ -93,6 +128,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testFileDownloadLink() {
         homePage.clickFileDownloadLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("download"));
     }
 
@@ -100,6 +138,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testFileUploadLink() {
         homePage.clickFileUploadLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("upload"));
 
     }
@@ -108,6 +149,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testFloatingMenuLink() {
         homePage.clickFloatingMenuLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("floating_menu"));
 
     }
@@ -116,6 +160,9 @@ public class HerokuMainPageTests extends BaseTest {
     public void testForgotPasswordLink() {
         homePage.clickForgotPasswordLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("forgot_password"));
 
     }
@@ -124,8 +171,27 @@ public class HerokuMainPageTests extends BaseTest {
     public void testAuthenticationFormLink() {
         homePage.clickFormAuthenticationLink();
         String currentUrl = driver.getCurrentUrl();
+        navigationTimeHelper = new NavigationTimeHelper(driver);
+        Map<String, Object> timings = navigationTimeHelper.getTimings();
+        printTimings(navigationTimeHelper, currentUrl);
         Assert.assertTrue(currentUrl.contains("login"));
 
+    }
+
+    private void printTimings(NavigationTimeHelper navigationTimeHelper, String testName) {
+        String logString = "\nPAGE TIMING STATS";
+        //        Long loadTime = navigationTimeHelper.getdomLoading();
+        Long responseTime = navigationTimeHelper.getresponseEnd() - navigationTimeHelper.getresponseStart();
+        Long loadTime = navigationTimeHelper.getloadEventEnd() - navigationTimeHelper.getloadEventStart();
+        Long domContentLoadTime = navigationTimeHelper.getdomContentLoadedEventEnd() - navigationTimeHelper.getdomContentLoadedEventStart();
+        Long domLoad = navigationTimeHelper.getdomComplete() - navigationTimeHelper.getdomLoading();
+        Long sumpin = navigationTimeHelper.getredirectStart();
+
+        logString  = String.format("Page Name: %s\n Response Time: %s\n Load Time: %s\n " +
+                "DOM Content Load Time: %s\n DOM Load Time: %s\n Redirect Start: %s",
+                testName, responseTime, loadTime, domContentLoadTime, domLoad, sumpin);
+
+        LOGGER.info(logString);
     }
 
 
