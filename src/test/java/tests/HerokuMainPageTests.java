@@ -178,7 +178,7 @@ public class HerokuMainPageTests extends BaseTest {
 
     }
 
-    private void printTimings(NavigationTimeHelper navigationTimeHelper, String testName) {
+    private void printTimings(NavigationTimeHelper navigationTimeHelper, String pageName) {
         String logString = "\nPAGE TIMING STATS";
         //        Long loadTime = navigationTimeHelper.getdomLoading();
         Long responseTime = navigationTimeHelper.getresponseEnd() - navigationTimeHelper.getresponseStart();
@@ -189,7 +189,7 @@ public class HerokuMainPageTests extends BaseTest {
 
         logString  = String.format("Page Name: %s\n Response Time: %s\n Load Time: %s\n " +
                 "DOM Content Load Time: %s\n DOM Load Time: %s\n Redirect Start: %s",
-                testName, responseTime, loadTime, domContentLoadTime, domLoad, sumpin);
+                pageName, responseTime, loadTime, domContentLoadTime, domLoad, sumpin);
 
         LOGGER.info(logString);
     }
