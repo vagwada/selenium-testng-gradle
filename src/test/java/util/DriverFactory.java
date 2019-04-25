@@ -13,6 +13,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.CapabilityType;
@@ -66,7 +67,11 @@ public class DriverFactory {
                 break;
             case "ie":
                 WebDriverManager.getInstance(IEXPLORER).setup();
-                driver = new InternetExplorerDriver();
+                InternetExplorerOptions caps = new InternetExplorerOptions();
+                caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true); //disable protected mode settings
+                caps.setCapability("initialBrowserUrl", "www.google.com");
+                caps.setCapability("ignoreZoomSetting", true);
+                driver = new InternetExplorerDriver(caps);
                 break;
             case "edge":
                 WebDriverManager.getInstance(EDGE).setup();

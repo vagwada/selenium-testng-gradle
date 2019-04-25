@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -43,7 +44,12 @@ public class BaseTest {
         driver = DriverFactory.getDriver(browser);
         long implicitWait = Integer.parseInt(propertyReader.readProperty("implicitWaitInSeconds"));
         driver.manage().timeouts().implicitlyWait(implicitWait, TimeUnit.SECONDS);
-        driver.manage().window().fullscreen();
+        if (!browser.equalsIgnoreCase("edge") && !browser.equalsIgnoreCase("ie")) {
+            driver.manage().window().fullscreen();
+        } else {
+//            driver.manage().window().setSize(new Dimension(1024, 768));
+//            driver.manage().window().maximize();
+        }
         junitListener.setDriver(driver);
         homePage = new HerokuAppMainPage(driver);
         loadUrl();
